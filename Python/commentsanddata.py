@@ -1,8 +1,4 @@
 # Numbers, Integers & Floats
-
-from tkinter import W
-
-
 intvar = 123
 floatvar = 12.3
 
