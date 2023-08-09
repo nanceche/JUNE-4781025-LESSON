@@ -59,7 +59,10 @@ print(listvar2.count(7))
 
 listitems = "John.Mary.Jack.Belinda.Fred.Sharon"
 
-print(listitems.split('.'))
+newlist = listitems.split('.')
+print(type(newlist))
+
+print(newlist)
 # creating a string from a list
 seperator = ':'
 print(seperator.join(listvar1))
