@@ -1,3 +1,13 @@
+# Mini Lab
+
+Using the below information create SELECT statments using the WHERE clause with:
+- BETWEEN
+- LIKE
+- <
+- IN
+- =
+
+
 
 company
 - company_no
