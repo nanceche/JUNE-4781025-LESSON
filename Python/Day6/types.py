@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 class dolls(ABC):
-
+    ken=0
    
     @abstractmethod
     def add_ken(self):
@@ -10,12 +10,13 @@ class dolls(ABC):
 class barbie(dolls):
     
     def add_ken(self):
-        ken=0
-        new_ken= ken+1
-        return new_ken
+      
+        self.ken=self.ken+1
+        return self.ken
 
 
 Barbie=barbie()
 additional_ken=Barbie.add_ken()
+another_ken=Barbie.add_ken()
 
-print(additional_ken)
+print(Barbie.ken)
