@@ -20,3 +20,6 @@ additional_ken=Barbie.add_ken()
 another_ken=Barbie.add_ken()
 
 print(Barbie.ken)
+
+
+

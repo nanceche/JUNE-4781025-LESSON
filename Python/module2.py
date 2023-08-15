@@ -1,0 +1,8 @@
+answer=input("How are you?")
+print(answer)
+print (bool(0))
+print (bool(546382))
+print (bool(-122))
+print(5%2)
+print(24%6)
+print(17%3)
